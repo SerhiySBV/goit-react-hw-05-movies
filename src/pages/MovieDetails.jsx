@@ -14,7 +14,6 @@ const MovieDetails = () => {
   useEffect(() => {
     fetchMovieDetsById(id).then(resp => {
       setMovieData(resp);
-      console.log('resp: ', resp);
     });
   }, [id]);
 

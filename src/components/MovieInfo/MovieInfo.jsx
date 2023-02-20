@@ -9,7 +9,6 @@ import {
 export const MovieInfo = ({
   movieData: { title, overview, release_date, genres },
 }) => {
-  console.log(title);
   return (
     <InfoBox>
       <Title>{title}</Title>
